@@ -24,7 +24,7 @@ mpl.rcParams.update({
     # Set a font which supports Zh-CN. This font works well on
     # macOS Monterey 12.5.1,
     # if it doesn't work on your PC, try another instead.
-    # 'axes.unicode_minus': False,
+    'axes.unicode_minus': False,
     'savefig.dpi': 600,
     # Set dpi to make the graph more clear, change it if numbers become to large.
     'savefig.transparent': True,
