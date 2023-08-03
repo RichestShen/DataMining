@@ -8,8 +8,7 @@ from pandas import DataFrame, Series
 # from numpy import *
 
 '''
-Import packages used frequently in advance, and customized some settings according
-to my demand,
+Import packages used frequently in advance, and customize some settings according to my demand,
 so that we can reduce some repeated routines and make our code more readable.
 
 To use this file to accelerate your data processing, use the command below
@@ -21,10 +20,11 @@ date: 2022.09.10
 
 # Customize matplotlib. If default settings needed, use command 'mpl.rcdefaults'.
 mpl.rcParams.update({
-    'font.sans-serif': ['Songti SC'],  # 'Songti SC' also works. 'Arial Unicode MS' in Windows
+    'font.sans-serif': ['SimHei'],  # 'Songti SC' also works. 'Arial Unicode MS' in Windows
     # Set a font which supports Zh-CN. This font works well on
     # macOS Monterey 12.5.1,
     # if it doesn't work on your PC, try another instead.
+    # 'axes.unicode_minus': False,
     'savefig.dpi': 600,
     # Set dpi to make the graph more clear, change it if numbers become to large.
     'savefig.transparent': True,
