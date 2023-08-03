@@ -1,3 +1,8 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 # `Python` 数据处理初步
 
 本仓库主要总结了使用 `Python` 进行数据处理, 机器学习等任务时最常用的数据处理技能, 主要包括 `Matplotlib`, `Numpy`, `Pandas`. 所有程序均在 python 3.9.17 下调试通过.
