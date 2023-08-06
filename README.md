@@ -1,10 +1,3 @@
-<!-- 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
--->
-
 # `Python` 数据处理初步
 
 本仓库主要总结了使用 `Python` 进行数据处理, 机器学习等任务时最常用的数据处理技能, 主要包括 `Matplotlib`, `Numpy`, `Pandas`. 所有程序均在 python 3.9.17 下调试通过.
@@ -17,6 +10,8 @@
 
 知识结构见 `Matplotlib.png`.
 
+![Matplotlib](https://qy-2023.oss-cn-shanghai.aliyuncs.com/pic/202308061459706.png)
+
 ## `Numpy`
 
 主要介绍了 `Numpy` 的基本用法, 包括 `ndarray` 数组的生成, 整形, 修改, 去重等常用操作, 以及各种常用的运算.
@@ -25,7 +20,17 @@
 
 知识结构见 `Numpy.png`.
 
+![Numpy](https://qy-2023.oss-cn-shanghai.aliyuncs.com/pic/202308061500350.png)
+
 ## `Pandas`
+
+主要介绍了 `Pandas` 的基本数据结构, 以及增删改查的基本方法. 
+
+![Pandas](https://qy-2023.oss-cn-shanghai.aliyuncs.com/pic/202308061452185.png)
+
+在此基础上, 介绍了一些基本的数据处理技巧, 如缺失值, 离散化.
+
+![Pandas 数据处理](https://qy-2023.oss-cn-shanghai.aliyuncs.com/pic/202308061500601.png)
 
 ## 关于 `DataImporter` 的说明
 
